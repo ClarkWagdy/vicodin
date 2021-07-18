@@ -1,0 +1,676 @@
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+p {
+  font-size: 16px;
+}
+.select-top{
+    border: none;
+font-size: 16px;
+}
+.select-top:focus{
+    border: none;
+    outline: none;
+}
+.count{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+color: white;
+justify-content: center;  
+  background-color: rgb(9, 152, 114);
+}
+.img-lan{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+/* green */
+.color-g {
+  color: rgb(9, 152, 114);
+}
+/* p font size */
+.p-f-s {
+  font-size: 14px;
+}
+/* select-style */
+.select-style {
+  border: none;
+  width: 80px;
+}
+.select-style:active {
+  border: none;
+}
+.img-lan {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.inp-search {
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border: none;
+  background-color: #e1e5ea;
+  width: 91.5%;
+  font-size: 16px;
+}
+.inp-search:focus {
+  outline: none;
+  border: rgb(9, 152, 114) 2px solid !important;
+}
+@media only screen and (max-width: 765px) {
+  .inp-search {
+    width: 88%;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  .inp-search {
+    width: 86%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .inp-search {
+    width: 79%;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .inp-search {
+    width: 75%;
+  }
+}
+.btn-search {
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: white;
+  background-color: rgb(9, 152, 114);
+  width: 60px;
+  height: 40px;
+}
+.btn-search:hover {
+  color: rgb(9, 152, 114);
+  background-color: transparent;
+  border: solid 2px rgb(9, 152, 114);
+}
+
+.s-catagories {
+  border: none;
+  position: absolute;
+  background-color: transparent;
+  right: 90px;
+}
+.fa-phone-alt {
+  color: rgb(9, 152, 114);
+}
+.BrowesCatagories {
+  background-color: rgb(9, 152, 114);
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: white;
+  padding: 5px;
+  padding: 15px;
+}
+.dropdown-br-cata {
+  width: 200px;
+}
+.nav-link {
+  color: black !important;
+  font-size: 17px;
+}
+.active {
+  color: rgb(9, 152, 114) !important;
+}
+.btn-menu {
+  border: none !important;
+  background-color: rgb(9, 152, 114) !important;
+}
+.toggler-icon {
+  color: white !important;
+}
+
+.dropdown-item {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1199px) {
+  #navbarslide {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1205px) {
+  #navbarslide {
+    display: block !important;
+  }
+}
+.crad1 {
+  width: 100% !important;
+  height: 70vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.a-color {
+  color: white;
+  background-color: rgb(9, 152, 114);
+  font-size: 15px;
+}
+.a-color:hover {
+  color: rgb(9, 152, 114);
+  background-color: transparent;
+  border: rgb(9, 152, 114) 1px solid;
+}
+.h1-card1 {
+  font-weight: bold;
+  width: 300px;
+  font-size: 40px;
+}
+.p-card1 {
+  color: #ef8a44;
+}
+.btn-card1 {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(9, 152, 114);
+  border: none;
+}
+.btn-card1:hover {
+  color: rgb(9, 152, 114);
+  background-color: transparent;
+  border: rgb(9, 152, 114) 1px solid;
+}
+.crad2 {
+  height: 33vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1-card2 {
+  font-weight: bold;
+  width: 200px;
+  font-size: 30px;
+}
+.crad3 {
+  width: 300px;
+}
+.h1-card3 {
+  font-weight: bold;
+  width: 230px;
+  font-size: 25px;
+}
+@media only screen and (min-width: 500px) {
+  .h1-card3 {
+    font-weight: bold;
+    width: 150px;
+    font-size: 20px;
+  }
+}
+.slick-next::before {
+  color: #787a91 !important;
+  content: "";
+  display: block;
+  height: 15px;
+  width: 15px;
+}
+.slick-prev::before {
+  color: #787a91 !important;
+
+  content: "";
+  display: block;
+  height: 15px;
+  width: 15px;
+}
+.s-icon {
+  font-size: 40px;
+}
+.slick-center {
+  color: rgb(9, 152, 114) !important;
+}
+.slick-center .svg-color {
+  fill: rgb(9, 152, 114) !important;
+}
+.crad4 {
+  max-width: 100% !important;
+  min-height: 50vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-color {
+  color: rgb(9, 152, 114);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.h1-card4 {
+  font-weight: bold;
+  width: 250px;
+  font-size: 25px;
+}
+.p-color:hover .fas {
+  color: #0a1931;
+}
+.card-6 {
+  min-width: 100% !important;
+  height: 40vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  transition: all 1s;
+}
+.sale {
+  background-color: rgb(9, 152, 114);
+  color: white;
+  padding: 2px;
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: tomato;
+  font-size: 13px;
+}
+.love-icon {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.love-icon:hover .lov-svg {
+  fill: tomato;
+}
+
+.zoom-icon:hover svg {
+  fill: rgb(9, 152, 114);
+}
+.card-6:hover {
+  transform: scale(1.1) !important;
+}
+.data-card6 {
+  transition: all 1s;
+}
+.card-6:hover + .data-card6 {
+  transform: translate(0, 20px);
+}
+.bg-color-sec-3 {
+  background-color: #f2f5f7;
+ 
+  min-height: 100vh !important;
+}
+.bg-covid {
+  position: absolute;
+  z-index: 1;
+  width: 100px !important;
+  height: 100px !important;
+  background-image: url(./../assets/virus.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.1;
+  margin-bottom: 350px;
+  margin-left: 50px;
+}
+.h1-co-days {
+  font-size: 40px;
+  font-weight: bold;
+}
+.day-box {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+}
+
+.p-s {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(9, 152, 114);
+}
+.img-sec3 {
+  width: 90%;
+}
+.z-in-sec3 {
+  position: relative;
+  z-index: 5;
+}
+
+#sec4 .card-6 {
+  min-width: 100% !important;
+  height: 40vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  transition: all 1s;
+}
+
+.card7 {
+  min-width: 100% !important;
+  height: 38vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.w-size {
+  width: 160px;
+  font-weight: bold;
+}
+.img-sec4 {
+  width: 70px !important;
+  height: 70px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-sec6 {
+  background-image: url(./../assets/bg.png);
+  min-width: 30%;
+  min-height: 100vh !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  opacity: 0.3;
+  left: 0;
+}
+.bg2-sec6 {
+  background-image: url(./../assets/bg.png);
+  min-width: 30%;
+  min-height: 100vh !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  opacity: 0.3;
+  transform: rotate(180deg);
+  right: 0;
+}
+.d-rela-zin {
+  position: relative;
+  z-index: 5;
+}
+.card-sec6 {
+  background-color: white;
+  width: 100%;
+}
+.img-card-sec6 {
+  min-width: 100px;
+  min-height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line-cs6 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.line-cs6:hover {
+  color: rgb(9, 152, 114);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.card-sec6:hover {
+  outline: 2px rgb(9, 152, 114) solid;
+}
+.bord-line {
+  width: 80px;
+  border: 1px solid rgb(9, 152, 114);
+}
+.img-card-sec6 .love-icon {
+  width: 15px;
+  height: 15px;
+}
+.card-sec7 {
+  border: 1px rgba(0, 0, 0, 0.2) solid;
+  border-radius: 10px;
+  min-height: 300px;
+  max-height: 300px;
+}
+.card-sec7:hover {
+  border: 1px rgb(9, 152, 114) solid;
+  border-radius: 10px;
+}
+.img-card-sec7 {
+  width: 100% !important;
+  height: 200px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-sec7 {
+  font-size: 10px;
+}
+
+.bg-gray {
+  background-color: #f2f5f7;
+  width: 100%;
+}
+.bg-gray .bg-covid {
+  position: absolute;
+  z-index: 1;
+  width: 100px !important;
+  height: 100px !important;
+  background-image: url(./../assets/virus.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.1;
+}
+.dr-sec8 {
+  min-width: 100% !important;
+  height: auto !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.h2-sec8 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#shape {
+  position: relative;
+  width: 45px;
+  height: 50px;
+  margin: 20px 0;
+  background: rgb(9, 152, 114);
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+}
+#shape:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+.fa-icon {
+  position: relative;
+  z-index: 5;
+  font-size: 20px;
+}
+
+.card-sec9 {
+border-radius: 15px !important;
+width: auto !important;
+height: 350px !important;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+}
+.img-card-sec9{
+    width: 100% !important;
+    height: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    border-radius: 15px 15px 0 0;
+}
+.pro-img-card-sec9{
+    min-width: 30px !important;
+    min-height: 30px !important;
+    border-radius: 50%;
+    border: solid 2px rgb(9, 152, 114);
+    background-image: url(./../assets/download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    background-color: rgb(9, 152, 114);
+border-radius: 25px;
+padding:0 5px 0 5px ;
+color: white;
+}
+.title2{
+    color: rgb(9, 152, 114);
+    border-radius: 25px;
+    width: 80px;
+    background-color: white;
+}
+.read-m{
+    cursor: pointer;
+
+}
+.read-m:hover{
+    color: rgb(9, 152, 114);
+}
+
+@media only screen and (max-width: 960px) {
+    .card-h-sec9{
+        width: 95% !important;
+        }
+  }
+.card-h-sec9:hover {
+    color: rgb(9, 152, 114);
+transform: scale(1.05);
+position: relative !important;
+z-index: 5 !important;
+}
+.card-h-sec9:hover {
+    color: rgb(9, 152, 114);
+
+}
+.card-h-sec9:hover p{
+    color: black;
+
+}
+
+.bg1-footer{
+    background-color: #F2F5F7;
+    width: 100%;
+    
+}
+.bg2-footer{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+  
+    color: white;
+}
+.bg3-footer{
+    background-color: #1B1B1B;
+    width: 100%;
+  
+}
+.f-icon{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.f-f-icon{
+    font-size: 30px;
+    color: #1CA1E0;
+}
+.line-space{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100% !important;
+    width: 1px !important;
+}
+.h2-footer{
+    font-size: 30px;
+}
+.soc-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+ 
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    background-color: white;
+}
+.soc-icon:hover{
+    color: white;
+    background-color: rgb(9, 152, 114);
+}
+.a-footer{
+    font-size: 16px;
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+}
+.a-footer:hover{
+    font-size: 16px;
+    color: rgb(9, 152, 114);
+    font-weight: bold;
+    margin: 8px;
+    text-decoration: none;
+}
+.subscribe{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 16px;
+    
+}
+.subscribe-inp{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+}
+.subscribe-inp:focus{
+ outline: rgb(9, 152, 114) 2px solid;
+}
+.subscribe-btn{
+    position: absolute;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(9, 152, 114);
+    border: none;
+}
+.subscribe-btn:hover{
+
+    color: black;
+    background-color: transparent;
+    border: rgb(9, 152, 114) 1px solid;
+}
