@@ -14,12 +14,13 @@ font-size: 16px;
     outline: none;
 }
 .count{
+  font-size: 10px;
     position: absolute;
-    width: 13px;
-    height: 13px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 color: white;
 justify-content: center;  
   background-color: rgb(9, 152, 114);
@@ -169,7 +170,7 @@ justify-content: center;
 .h1-card1 {
   font-weight: bold;
   width: 300px;
-  font-size: 40px;
+  font-size: 30px;
 }
 .p-card1 {
   color: #ef8a44;
@@ -227,7 +228,7 @@ justify-content: center;
   width: 15px;
 }
 .s-icon {
-  font-size: 40px;
+  font-size: 30px;
 }
 .slick-center {
   color: rgb(9, 152, 114) !important;
@@ -251,7 +252,7 @@ justify-content: center;
 .h1-card4 {
   font-weight: bold;
   width: 250px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .p-color:hover .fas {
   color: #0a1931;
@@ -482,7 +483,7 @@ justify-content: center;
 }
 .h2-sec8 {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 #shape {
@@ -605,7 +606,7 @@ z-index: 5 !important;
     border-radius: 5px;
 }
 .f-f-icon{
-    font-size: 30px;
+    font-size: 25px;
     color: #1CA1E0;
 }
 .line-space{
@@ -614,7 +615,7 @@ z-index: 5 !important;
     width: 1px !important;
 }
 .h2-footer{
-    font-size: 30px;
+    font-size: 25px;
 }
 .soc-icon{
     display: flex;
